@@ -4,8 +4,8 @@ just hosting some files for a slack dark theme hack.
 ## How to:
 
 Open the file ssb-interop.js in your Slack installation.
-Windows path: ~\AppData\Local\slack\<your-slack-version>\resources\app.asar.unpacked\src\static\ssb-interop.js
-Mac Path: /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
+* Windows path: ~\AppData\Local\slack\<your-slack-version>\resources\app.asar.unpacked\src\static\ssb-interop.js
+* Mac Path: /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
 
 At the end of the file, paste in the code in ssb-interop-js-addon.js in this repo.
 
