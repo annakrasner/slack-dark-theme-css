@@ -45,7 +45,7 @@ html, body, input, textarea, select, button {
 }
 html, body, input, textarea, select, button {
     border-color: #66635e;
-    color: #e2dbcd;
+    color: #c0d2d3;
 }
 a {
     color: #5991d0;
@@ -67,8 +67,8 @@ table {
 input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
-    background-color: #626325 !important;
-    color: #e2dbcd !important;
+    background-color: #343735 !important;
+    color: #c0d2d3 !important;
 }
 ::-webkit-scrollbar {
     background-color: #333233;
