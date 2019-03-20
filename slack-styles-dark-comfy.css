@@ -86,29 +86,7 @@ select:-webkit-autofill {
 ::-webkit-scrollbar-corner {
     background-color: #2f2f2f;
 }
-* {
-    scrollbar-color: #3c3d40 #333233;
-}
 
-
-
-
-
-
-
-
-
-
-
-
-.jfk-bubble {
-    background-color: #1b1a19 !important;
-}
-.vimvixen-hint {
-    background-color: #7b5f17 !important;
-    border-color: #c9ab3e !important;
-    color: #e9dbbc !important;
-}
 
 .c-legend {
     border-top-color: initial;
