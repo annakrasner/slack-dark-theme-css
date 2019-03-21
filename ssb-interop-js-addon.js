@@ -7,13 +7,14 @@ document.addEventListener("DOMContentLoaded", function() {
    let webviews = document.querySelectorAll(".TeamView webview");
 
    // Fetch our CSS in parallel ahead of time
-   const cssPath = 'https://raw.githubusercontent.com/annakrasner/slack-dark-theme-css/master/slack-styles-dark-comfy.css';
+   const cssPath = 'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css';
    let cssPromise = fetch(cssPath).then(response => response.text());
 
    let customCustomCSS = `
 
-
-
+{
+  color: #e2dbcd; background-color: #343735;   .c-mrkdwn__pre, .c-mrkdwn__quote { background: #34373 !important; background-color: #343735 !important;
+}
 
    `
 
