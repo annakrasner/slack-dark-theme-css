@@ -1690,11 +1690,8 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 #unread_msgs_div .day_divider .day_divider_line { border-top-color: #363636; }
 
 
-  #p-threads_view::after { background: transparent; }
 
-  #p-threads_view.loading { background-image: none; }
-
-  #p-threads_view.loading::before { color: #949494; }
+.p-threads_view { background: #222 !important; }
 
 .unread_group.marked_as_read .unread_group_header { background: #222; }
 
