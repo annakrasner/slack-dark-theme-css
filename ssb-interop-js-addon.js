@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
    let webviews = document.querySelectorAll(".TeamView webview");
 
    // Fetch our CSS in parallel ahead of time
-   const cssPath = 'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css';
+   const cssPath = 'https://raw.githubusercontent.com/annakrasner/slack-dark-theme-css/master/la-cour-slack-night-mode.css';
    let cssPromise = fetch(cssPath).then(response => response.text());
 
    let customCustomCSS = `
