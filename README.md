@@ -9,6 +9,6 @@ Open the file ssb-interop.js in your Slack installation.
 
 At the end of the file, paste in the code in ssb-interop-js-addon.js in this repo.
 
-Change the theme by changing the cssPath in the snippet to the link to the raw github file of the theme you want. Right now it's slack-styles-dark-comfy.css.
+Change the theme by changing the cssPath in the snippet to the link to the raw github file of the theme you want. Right now it's la-cour-slack-night-mode.css.
 
 Css files are subject to change as i mess with this, so fork and host your own instead
