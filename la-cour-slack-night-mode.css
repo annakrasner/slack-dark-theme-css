@@ -1694,6 +1694,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 
 /*.p-threads_view .p-threads_view__default_background .p-threads_view__load_older_button { background: #222 !important; }*/
+.p-threads_view { background : #222 !important; }
 .p-threads_view__default_background { background : #222 !important; }
 .p-threads_view_header__channel_name { color: #949494 !important; }
 
