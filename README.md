@@ -2,7 +2,18 @@
 just hosting some files for a slack dark theme hack.
 
 ## How to:
+FOR 4.x
+Follow the instructions here to edit ssb-interop.bundle.js as seen below. 
+* Make sure Slack is not running/in the background. Navigate to C:\Users\USERNAME\AppData\Local\slack\app-4.0.0\resources
+* Open app.asar as an archive via 7-zip. 7-zip cannot do this normally you will need an extension. I used Asar7z.
+* In the archive, navigate to the /dist/ folder
+* Search for ssb-interop.bundle.js and open it
+* Append the usual CSS style you use. I personally add this:
+document.addEventListener('DOMContentLoaded', function() { $.ajax({ url: 'https://raw.githubusercontent.com/laCour/slack-night-mode/master/css/raw/black.css', success: function(css) { $("<style></style>").appendTo('head').html(css); } }); });
+* Save the file. 7-Zip will prompt you if you want to update the archive, say yes of course
+* Close 7-Zip. Reopen Slack. Eyes rejoice.
 
+BELOW ONLY WORKS IN 3.x
 Open the file ssb-interop.js in your Slack installation.
 * Windows path: ~\AppData\Local\slack\<your-slack-version>\resources\app.asar.unpacked\src\static\ssb-interop.js
 * Mac Path: /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
