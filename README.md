@@ -8,9 +8,8 @@ Follow the instructions here to edit ssb-interop.bundle.js as seen below.
 * Open app.asar as an archive via 7-zip. 7-zip cannot do this normally you will need an extension. I used Asar7z.
 * In the archive, navigate to the /dist/ folder
 * Search for ssb-interop.bundle.js and open it
-* Append the usual CSS style you use. I personally add this:
-document.addEventListener('DOMContentLoaded', function() { $.ajax({ url: 'https://raw.githubusercontent.com/laCour/slack-night-mode/master/css/raw/black.css', success: function(css) { $("<style></style>").appendTo('head').html(css); } }); });
-* Save the file. 7-Zip will prompt you if you want to update the archive, say yes of course
+* Append the stuff in ssb-interop-js-addon.js in this repo.
+* Save the file. 7-Zip will prompt you if you want to update the archive, say yes.
 * Close 7-Zip. Reopen Slack. Eyes rejoice.
 
 BELOW ONLY WORKS IN 3.x
