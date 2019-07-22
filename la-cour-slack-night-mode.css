@@ -4,7 +4,7 @@ body { background: #222; color: #e6e6e6; }
 
 a { color: #949494; }
 
-a:link, a:visited { color: #949494; }
+a:link, a:visited { color: #dcdcdc; }
 
 a:hover, a:active, a:focus { color: #c7c7c7; }
 
@@ -4208,9 +4208,11 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 
 .p-workspace__top_nav {background: black; color: white;}
 
-.p-workspace__input {background: black;}
+.p-workspace__message_pane_input_inner {background: black;}
 
 .p-workspace__secondary_view_contents {color: #dcdcdc; background: black;}
 
+.p-workspace--classic-nav .p-workspace__secondary_view { background: black; }
 
+.p-classic_nav__model__title__info .p-classic_nav__no_drag { color: whitesmoke;}
 
